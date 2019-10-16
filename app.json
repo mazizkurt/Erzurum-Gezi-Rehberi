@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "Erzurum Gezi Rehberi",
+    "description": "Erzurum",
+    "slug": "ErzurumGeziRehberi",
+    "privacy": "public",
+    "sdkVersion": "31.0.0",
+    "platforms": ["ios", "android"],
+    "version": "1.5.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.erzurum.gezirehberi"
+    },
+    "android": {
+      "package": "com.erzurum.gezirehberii",
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ],
+      "versionCode":4
+    }
+  }
+}
